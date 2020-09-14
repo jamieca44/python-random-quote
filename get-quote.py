@@ -8,9 +8,15 @@ def updated_main():
   f.close()
 
   last = len(quotes) - 1
-  rnd = random.randint(0, last)
 
-  print(quotes[rnd])
+  rnd = random.randint(0, last)
+  print("Quote #1: " + quotes[rnd])
+
+  rnd = random.randint(0, last)
+  print("Quote #2: " + quotes[rnd])
+  
+  rnd = random.randint(0, last)
+  print("Quote #3: " + quotes[rnd])
 
 if __name__== "__main__":
   updated_main()
